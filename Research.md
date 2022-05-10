@@ -32,12 +32,12 @@ For example, let's start with this collection, and choose the odd numbers:
 
 With **imperative** programming, we'd step through this, and decide what we want:
 
-`List<int> results = new List<int>();`
-`foreach(var num in collection)`
-`{`
-    `if (num % 2 != 0)`
-          `results.Add(num);`
-`}`
+`List<int> results = new List<int>();
+foreach(var num in collection)
+{
+    if (num % 2 != 0)
+          results.Add(num);
+}`
 Here, we're saying:
 
 - Create a result collection
@@ -57,7 +57,7 @@ Yeni proqramlaşdırma dilini öz başıma öyrənməli olsaydım nə edərdim?
 
 #### Cavab
 
-YouTUbe və s. kimi plsuz mənbələrdən istifaadə edərdim. Əsasən də YouTube da öyrəmək istədiyim proqramlaşdırma dilinin "crash course"lar izləyərdim və daha yaxşı başa düşmək üçün praktik olaraq öz öyrəndiklərimi tətbiq edərdim məsələlərə. Bununla həm nəzəri həm də praktii özümü inkişaf etdirərdim.
+YouTube və s. kimi plsuz mənbələrdən istifaadə edərdim. Əsasən də YouTube da öyrəmək istədiyim proqramlaşdırma dilinin "crash course"lar izləyərdim və daha yaxşı başa düşmək üçün praktik olaraq öz öyrəndiklərimi tətbiq edərdim məsələlərə. Bununla həm nəzəri həm də praktii özümü inkişaf etdirərdim.
 ### Sual 05
 
 Proqramlaşdırma dillərinin dizayn olunması deyiləndə ağlınıza nə gəlir? Yəni bir proqramlaşdırma dili necə dizayn edilə bilər?
