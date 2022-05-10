@@ -53,7 +53,9 @@ Here, we're saying:
 
 With **declarative** programming, on the other hand, you write code that describes what you want, but not necessarily how to get it (declare your desired results, but not the step-by-step):
 
-`var results = collection.Where( num => num % 2 != 0);`
+```C#
+var results = collection.Where( num => num % 2 != 0);
+```
 
 Here, we're saying "Give us everything where it's odd", not "Step through the collection. Check this item, if it's odd, add it to a result collection."
 ### Sual 04
