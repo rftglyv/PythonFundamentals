@@ -32,12 +32,14 @@ For example, let's start with this collection, and choose the odd numbers:
 
 With **imperative** programming, we'd step through this, and decide what we want:
 
-`List<int> results = new List<int>();  
-foreach(var num in collection)  
+```C#
+List<int> results = new List<int>();
+foreach(var num in collection)
 {  
-    if (num % 2 != 0)  
-          results.Add(num);  
-}`
+    if (num % 2 != 0)
+        results.Add(num);
+}
+```
 Here, we're saying:
 
 - Create a result collection
