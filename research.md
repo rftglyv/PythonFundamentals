@@ -28,7 +28,9 @@ With **imperative** programming, you tell the compiler what you want to happen, 
 
 For example, let's start with this collection, and choose the odd numbers:
 
-`List<int> collection = new List<int> { 1, 2, 3, 4, 5 };`
+```C#
+List<int> collection = new List<int> { 1, 2, 3, 4, 5 };
+```
 
 With **imperative** programming, we'd step through this, and decide what we want:
 
@@ -40,6 +42,7 @@ foreach(var num in collection)
         results.Add(num);
 }
 ```
+
 Here, we're saying:
 
 - Create a result collection
