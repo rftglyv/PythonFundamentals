@@ -58,6 +58,7 @@ var results = collection.Where( num => num % 2 != 0);
 ```
 
 Here, we're saying "Give us everything where it's odd", not "Step through the collection. Check this item, if it's odd, add it to a result collection."
+
 ### Sual 04
 
 Yeni proqramlaşdırma dilini öz başıma öyrənməli olsaydım nə edərdim?
@@ -65,6 +66,7 @@ Yeni proqramlaşdırma dilini öz başıma öyrənməli olsaydım nə edərdim?
 #### Cavab
 
 YouTube və s. kimi plsuz mənbələrdən istifaadə edərdim. Əsasən də YouTube da öyrəmək istədiyim proqramlaşdırma dilinin "crash course"lar izləyərdim və daha yaxşı başa düşmək üçün praktik olaraq öz öyrəndiklərimi tətbiq edərdim məsələlərə. Bununla həm nəzəri həm də praktii özümü inkişaf etdirərdim.
+
 ### Sual 05
 
 Proqramlaşdırma dillərinin dizayn olunması deyiləndə ağlınıza nə gəlir? Yəni bir proqramlaşdırma dili necə dizayn edilə bilər?
